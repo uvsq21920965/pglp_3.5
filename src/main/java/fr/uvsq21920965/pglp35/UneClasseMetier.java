@@ -1,4 +1,5 @@
-package uvsq21920965;
+package fr.uvsq21920965.pglp35;
+
 /**
  * uneClassMetier Class.
  * @author oem
@@ -12,9 +13,9 @@ private Affichage affichage;
 
   /**
    * Constructeur.
-   * @param affichageAtt 
+   * @param affichageAtt attribut de type affichage.
    */
-  public UneClasseMetier(Affichage affichageAtt) {
+  public UneClasseMetier(final Affichage affichageAtt) {
     this.affichage = affichageAtt;
   }
   /**
@@ -22,6 +23,6 @@ private Affichage affichage;
    */
   public void uneMethodeMetier() {
     affichage.affichageDebut();
-	affichage.affichageFin();
-	}
+    affichage.affichageFin();
+  }
 }

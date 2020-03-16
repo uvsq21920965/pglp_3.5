@@ -1,4 +1,4 @@
-package uvsq21920965;
+package fr.uvsq21920965.pglp35;
 /**
  * Affihage interface.
  * @author Sarra Belmahdi.
@@ -8,11 +8,11 @@ public interface Affichage {
   /**
    * l'affichage du debut.
    */
-  public void affichageDebut();
+  void affichageDebut();
 
   /**
    * l'affichage de la fin.
    */
-  public void affichageFin();
+  void affichageFin();
 
 }

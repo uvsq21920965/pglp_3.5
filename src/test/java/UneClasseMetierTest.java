@@ -5,16 +5,15 @@ import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.Logger;
 import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.core.read.ListAppender;
+import fr.uvsq21920965.pglp35.Affichage;
+import fr.uvsq21920965.pglp35.AffichageMetier;
+import fr.uvsq21920965.pglp35.UneClasseMetier;
 
 import static org.junit.Assert.assertEquals;
 
 
 import java.io.IOException;
 import java.util.List;
-
-import uvsq21920965.Affichage;
-import uvsq21920965.AffichageMetier;
-import uvsq21920965.UneClasseMetier;
 
 public class UneClasseMetierTest {
 

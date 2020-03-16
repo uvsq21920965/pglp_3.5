@@ -1,4 +1,4 @@
-package uvsq21920965;
+package fr.uvsq21920965.pglp35;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -9,23 +9,24 @@ import org.slf4j.LoggerFactory;
  *
  */
 
-public class AffichageMetier implements Affichage{
+public class AffichageMetier implements Affichage {
 /**
  * initilise logger.
  */
-private static final Logger logger = LoggerFactory.getLogger(AffichageMetier.class);
+private final Logger logger = LoggerFactory.getLogger(
+  AffichageMetier.class);
 
   /**
    * enregistrer un message INFO.
    */
   public void affichageDebut() {
-    logger.info("Début  de  uneMethodeMetier" );
+    logger.info("Début  de  uneMethodeMetier");
   }
 
   /**
    * enregistrer un message INFO.
    */
   public void affichageFin() {
-    logger.info("fin  de  uneMethodeMetier" );
+    logger.info("fin  de  uneMethodeMetier");
   }
 }

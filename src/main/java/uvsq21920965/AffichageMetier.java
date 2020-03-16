@@ -18,14 +18,14 @@ private static final Logger logger = LoggerFactory.getLogger(AffichageMetier.cla
   /**
    * enregistrer un message INFO.
    */
-  public void AffichageDebut() {
+  public void affichageDebut() {
     logger.info("Début  de  uneMethodeMetier" );
   }
 
   /**
    * enregistrer un message INFO.
    */
-  public void AffichageFin() {
+  public void affichageFin() {
     logger.info("fin  de  uneMethodeMetier" );
   }
 }

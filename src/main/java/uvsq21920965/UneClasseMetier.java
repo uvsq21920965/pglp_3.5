@@ -21,7 +21,7 @@ private Affichage affichage;
    * methode qui affiche les log messeages.
    */
   public void uneMethodeMetier() {
-    affichage.AffichageDebut();
-	affichage.AffichageFin();
+    affichage.affichageDebut();
+	affichage.affichageFin();
 	}
 }

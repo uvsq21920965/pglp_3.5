@@ -8,11 +8,11 @@ public interface Affichage {
   /**
    * l'affichage du debut.
    */
-  public void AffichageDebut();
+  public void affichageDebut();
 
   /**
    * l'affichage de la fin.
    */
-  public void AffichageFin();
+  public void affichageFin();
 
 }

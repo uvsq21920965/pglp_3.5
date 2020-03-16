@@ -1,17 +1,27 @@
 package uvsq21920965;
-
+/**
+ * uneClassMetier Class.
+ * @author oem
+ *
+ */
 public class UneClasseMetier {
-	
-	private Affichage affichage;
-	
-	public UneClasseMetier(Affichage affichageAtt) {
-	  this.affichage = affichageAtt;
-	}
+/**
+ * attribut de type affichage.
+ */
+private Affichage affichage;
 
-	public void uneMethodeMetier() {
-		affichage.AffichageDebut();
-		affichage.AffichageFin();
+  /**
+   * Constructeur.
+   * @param affichageAtt 
+   */
+  public UneClasseMetier(Affichage affichageAtt) {
+    this.affichage = affichageAtt;
+  }
+  /**
+   * methode qui affiche les log messeages.
+   */
+  public void uneMethodeMetier() {
+    affichage.AffichageDebut();
+	affichage.AffichageFin();
 	}
-	
-
 }

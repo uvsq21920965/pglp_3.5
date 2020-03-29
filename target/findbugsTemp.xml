@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BugCollection version="3.0.1" sequence="0" timestamp="1584390474000" analysisTimestamp="1584390490374" release="">
+<BugCollection version="3.0.1" sequence="0" timestamp="1585521508000" analysisTimestamp="1585521519633" release="">
   <Project projectName="pgpl_3.5">
     <Jar>/home/oem/git/pgpl_3.5/target/classes</Jar>
     <AuxClasspathEntry>/home/oem/.m2/repository/org/codehaus/mojo/findbugs-maven-plugin/3.0.4/findbugs-maven-plugin-3.0.4.jar</AuxClasspathEntry>
@@ -77,18 +77,25 @@
     <AuxClasspathEntry>/home/oem/.m2/repository/ch/qos/logback/logback-core/1.0.1/logback-core-1.0.1.jar</AuxClasspathEntry>
   </Project>
   <Errors errors="0" missingClasses="0"></Errors>
-  <FindBugsSummary timestamp="Mon, 16 Mar 2020 21:27:54 +0100" total_classes="3" referenced_classes="14" total_bugs="0" total_size="24" num_packages="1" java_version="1.8.0_222" vm_version="25.222-b10" cpu_seconds="16.02" clock_seconds="17.31" peak_mbytes="110.20" alloc_mbytes="455.50" gc_seconds="0.91">
+  <FindBugsSummary timestamp="Mon, 30 Mar 2020 00:38:28 +0200" total_classes="4" referenced_classes="15" total_bugs="0" total_size="25" num_packages="1" java_version="1.8.0_222" vm_version="25.222-b10" cpu_seconds="10.70" clock_seconds="4.26" peak_mbytes="109.74" alloc_mbytes="455.50" gc_seconds="0.06">
     <FileStats path="fr/uvsq21920965/pglp35/Affichage.java" bugCount="0" size="3"/>
     <FileStats path="fr/uvsq21920965/pglp35/AffichageMetier.java" bugCount="0" size="11"/>
     <FileStats path="fr/uvsq21920965/pglp35/UneClasseMetier.java" bugCount="0" size="10"/>
-    <PackageStats package="fr.uvsq21920965.pglp35" total_bugs="0" total_types="3" total_size="24">
+    <FileStats path="fr/uvsq21920965/pglp35/package-info.java" bugCount="0" size="1"/>
+    <PackageStats package="fr.uvsq21920965.pglp35" total_bugs="0" total_types="4" total_size="25">
       <ClassStats class="fr.uvsq21920965.pglp35.Affichage" sourceFile="Affichage.java" interface="true" size="3" bugs="0"/>
       <ClassStats class="fr.uvsq21920965.pglp35.AffichageMetier" sourceFile="AffichageMetier.java" interface="false" size="11" bugs="0"/>
       <ClassStats class="fr.uvsq21920965.pglp35.UneClasseMetier" sourceFile="UneClasseMetier.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="fr.uvsq21920965.pglp35.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
     </PackageStats>
     <FindBugsProfile>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="5482" invocations="325" avgMicrosecondsPerInvocation="16869" maxMicrosecondsPerInvocation="332922" standardDeviationMircosecondsPerInvocation="38819"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="1795" invocations="324" avgMicrosecondsPerInvocation="5541" maxMicrosecondsPerInvocation="1261358" standardDeviationMircosecondsPerInvocation="70455"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="1186" invocations="325" avgMicrosecondsPerInvocation="3651" maxMicrosecondsPerInvocation="285246" standardDeviationMircosecondsPerInvocation="18499"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="395" invocations="324" avgMicrosecondsPerInvocation="1220" maxMicrosecondsPerInvocation="25328" standardDeviationMircosecondsPerInvocation="2621"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="194" invocations="15" avgMicrosecondsPerInvocation="12949" maxMicrosecondsPerInvocation="114656" standardDeviationMircosecondsPerInvocation="28111"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="149" invocations="15" avgMicrosecondsPerInvocation="9987" maxMicrosecondsPerInvocation="129485" standardDeviationMircosecondsPerInvocation="31992"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="99" invocations="292" avgMicrosecondsPerInvocation="340" maxMicrosecondsPerInvocation="28654" standardDeviationMircosecondsPerInvocation="1714"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="86" invocations="5" avgMicrosecondsPerInvocation="17385" maxMicrosecondsPerInvocation="84862" standardDeviationMircosecondsPerInvocation="33738"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="81" invocations="15" avgMicrosecondsPerInvocation="5427" maxMicrosecondsPerInvocation="34896" standardDeviationMircosecondsPerInvocation="9491"/>
     </FindBugsProfile>
   </FindBugsSummary>
   <ClassFeatures></ClassFeatures>

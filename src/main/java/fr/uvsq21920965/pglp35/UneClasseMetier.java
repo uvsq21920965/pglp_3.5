@@ -6,10 +6,11 @@ package fr.uvsq21920965.pglp35;
  *
  */
 public class UneClasseMetier {
-/**
- * attribut de type affichage.
- */
-private Affichage affichage;
+
+  /**
+   * attribut de type affichage.
+   */
+  private Affichage affichage;
 
   /**
    * Constructeur.
@@ -18,6 +19,7 @@ private Affichage affichage;
   public UneClasseMetier(final Affichage affichageAtt) {
     this.affichage = affichageAtt;
   }
+
   /**
    * methode qui affiche les log messeages.
    */

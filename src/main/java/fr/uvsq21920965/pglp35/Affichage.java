@@ -1,4 +1,5 @@
 package fr.uvsq21920965.pglp35;
+
 /**
  * Affihage interface.
  * @author Sarra Belmahdi.

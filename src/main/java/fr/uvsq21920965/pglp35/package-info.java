@@ -1,5 +1,6 @@
+package fr.uvsq21920965.pglp35;
+
 /**
- * @author Sarra Belmahdi
+ * @author Sarra Belmahdi.
  *
  */
-package fr.uvsq21920965.pglp35;

@@ -25,9 +25,9 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2020</copyright>
     <item>
-      <title>File: 4,
+      <title>File: 1,
              Errors: 0,
-             Warnings: 6,
+             Warnings: 0,
              Infos: 0
       </title>
             <link>${project.url}/checkstyle.html</link>
@@ -46,55 +46,13 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#fr.uvsq21920965.pglp35.Affichage.java">fr/uvsq21920965/pglp35/Affichage.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#fr.uvsq21920965.pglp35.AffichageMetier.java">fr/uvsq21920965/pglp35/AffichageMetier.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  2
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="${project.url}/checkstyle.html#fr.uvsq21920965.pglp35.UneClasseMetier.java">fr/uvsq21920965/pglp35/UneClasseMetier.java</a>
                 </td>
                 <td>
                   0
                 </td>
                 <td>
-                  2
-                </td>
-                <td>
                   0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#fr.uvsq21920965.pglp35.package-info.java">fr/uvsq21920965/pglp35/package-info.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
                 </td>
                 <td>
                   0

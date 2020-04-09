@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.19">
 <file name="/home/oem/git/pgpl_3.5/src/main/java/fr/uvsq21920965/pglp35/UneClasseMetier.java">
-<error line="12" severity="warning" message="&apos;member def modifier&apos; has incorrect indentation level 0, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="24" severity="warning" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
-</file>
-<file name="/home/oem/git/pgpl_3.5/src/main/java/fr/uvsq21920965/pglp35/AffichageMetier.java">
-<error line="16" severity="warning" message="&apos;member def modifier&apos; has incorrect indentation level 0, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="17" severity="warning" message="&apos;AffichageMetier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-</file>
-<file name="/home/oem/git/pgpl_3.5/src/main/java/fr/uvsq21920965/pglp35/package-info.java">
-<error line="1" severity="warning" message="Summary javadoc is missing." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
-</file>
-<file name="/home/oem/git/pgpl_3.5/src/main/java/fr/uvsq21920965/pglp35/Affichage.java">
-<error line="7" severity="warning" message="&apos;INTERFACE_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
 </file>
 </checkstyle>

@@ -10,11 +10,11 @@ import org.slf4j.LoggerFactory;
  */
 
 public class AffichageMetier implements Affichage {
-/**
- * initilise logger.
- */
-private final Logger logger = LoggerFactory.getLogger(
-  AffichageMetier.class);
+
+  /**
+   * initilise logger.
+   */
+  private final Logger logger = LoggerFactory.getLogger(AffichageMetier.class);
 
   /**
    * enregistrer un message INFO.

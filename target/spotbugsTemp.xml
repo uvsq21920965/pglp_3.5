@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.0.0" sequence="0" timestamp="1586414320000" analysisTimestamp="1586414354912" release="">
+  <Project projectName="pgpl_3.5">
+    <Jar>/home/oem/git/pgpl_3.5/target/classes</Jar>
+    <AuxClasspathEntry>/home/oem/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/ch/qos/logback/logback-classic/1.0.1/logback-classic-1.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/oem/.m2/repository/ch/qos/logback/logback-core/1.0.1/logback-core-1.0.1.jar</AuxClasspathEntry>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 9 Apr 2020 08:38:40 +0200" total_classes="4" referenced_classes="15" total_bugs="0" total_size="25" num_packages="1" java_version="1.8.0_222" vm_version="25.222-b10" cpu_seconds="7.78" clock_seconds="2.35" peak_mbytes="110.20" alloc_mbytes="455.50" gc_seconds="0.07">
+    <FileStats path="fr/uvsq21920965/pglp35/Affichage.java" bugCount="0" size="3"/>
+    <FileStats path="fr/uvsq21920965/pglp35/AffichageMetier.java" bugCount="0" size="11"/>
+    <FileStats path="fr/uvsq21920965/pglp35/UneClasseMetier.java" bugCount="0" size="10"/>
+    <FileStats path="fr/uvsq21920965/pglp35/package-info.java" bugCount="0" size="1"/>
+    <PackageStats package="fr.uvsq21920965.pglp35" total_bugs="0" total_types="4" total_size="25">
+      <ClassStats class="fr.uvsq21920965.pglp35.Affichage" sourceFile="Affichage.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="fr.uvsq21920965.pglp35.AffichageMetier" sourceFile="AffichageMetier.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="fr.uvsq21920965.pglp35.UneClasseMetier" sourceFile="UneClasseMetier.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="fr.uvsq21920965.pglp35.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="503" invocations="325" avgMicrosecondsPerInvocation="1548" maxMicrosecondsPerInvocation="38881" standardDeviationMicrosecondsPerInvocation="4139"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="96" invocations="7" avgMicrosecondsPerInvocation="13724" maxMicrosecondsPerInvocation="94956" standardDeviationMicrosecondsPerInvocation="33163"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="94" invocations="15" avgMicrosecondsPerInvocation="6330" maxMicrosecondsPerInvocation="29585" standardDeviationMicrosecondsPerInvocation="8977"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="87" invocations="293" avgMicrosecondsPerInvocation="299" maxMicrosecondsPerInvocation="5105" standardDeviationMicrosecondsPerInvocation="581"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="83" invocations="67" avgMicrosecondsPerInvocation="1252" maxMicrosecondsPerInvocation="8838" standardDeviationMicrosecondsPerInvocation="1562"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="77" invocations="326" avgMicrosecondsPerInvocation="236" maxMicrosecondsPerInvocation="4022" standardDeviationMicrosecondsPerInvocation="244"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="60" invocations="15" avgMicrosecondsPerInvocation="4059" maxMicrosecondsPerInvocation="21167" standardDeviationMicrosecondsPerInvocation="5666"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="56" invocations="29" avgMicrosecondsPerInvocation="1946" maxMicrosecondsPerInvocation="32422" standardDeviationMicrosecondsPerInvocation="5962"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="41" invocations="15" avgMicrosecondsPerInvocation="2798" maxMicrosecondsPerInvocation="18783" standardDeviationMicrosecondsPerInvocation="4800"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="35" invocations="15" avgMicrosecondsPerInvocation="2390" maxMicrosecondsPerInvocation="21066" standardDeviationMicrosecondsPerInvocation="5179"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="34" invocations="15" avgMicrosecondsPerInvocation="2299" maxMicrosecondsPerInvocation="11869" standardDeviationMicrosecondsPerInvocation="3689"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
